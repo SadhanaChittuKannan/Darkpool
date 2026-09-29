@@ -71,7 +71,7 @@ export default function HomePage() {
               placeholder="Search markets..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="pl-10"
+              className="pl-10 bg-muted/30 border-primary/20 focus-visible:border-primary transition-colors"
             />
           </div>
 
